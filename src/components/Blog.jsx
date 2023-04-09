@@ -4,6 +4,7 @@ const Blog = () => {
     return (
         <div>
             it is a blog page
+            
         </div>
     );
 };

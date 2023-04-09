@@ -5,8 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      gradientColorStops: {
+        'custom-gradient': ['#ff9966', '#ff5e62'],
+      },
+    },
   },
+  variants: {},
   plugins: [],
 }
-
