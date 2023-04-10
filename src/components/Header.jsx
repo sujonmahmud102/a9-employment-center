@@ -3,7 +3,7 @@ import { Link, NavLink, Outlet } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <nav className='flex justify-between my-6'>
+        <nav className='flex justify-between py-6 bg-[#E8E8E8] px-12'>
             <div>
                 <h2 className='text-xl font-semibold cursor-pointer '>JobCenter</h2>
             </div>
