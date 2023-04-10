@@ -1,0 +1,21 @@
+[{
+        "category": "Engineering",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5LfQsmhdpVST7C3g_WX2Xgrcw_zvvw3g951geNPAxXQ&s",
+        "total_jobs": 120
+    },
+    {
+        "category": "Marketing",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ88_G0Lu539v7EhT65nXol_Y89fDvtwuROy2w-cNkRbw&s",
+        "total_jobs": 80
+    },
+    {
+        "category": "Finance",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVC1Rx4pIucdC1icw9tX90E8V3xJzMESe5HN-F6Oo&s",
+        "total_jobs": 60
+    },
+    {
+        "category": "Human Resources",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjGOSuSckexPeJ1wxKx8-V5uq0-cGrWUt9Q3FVMlbo5w&s",
+        "total_jobs": 40
+    }
+]
