@@ -12,18 +12,22 @@ const Home = () => {
     return (
         <div>
             <HomeBanner></HomeBanner>
-            <div className='mt-16'>
-                <h1>Job Category List</h1>
-                <p>
-                    Explore thousands of job opportunities with all the information you need. Its your future
-                </p>
+            <div className='mt-16 px-12'>
+                <div>
+                    <h1 className='text-3xl font-bold text-center mb-4'>Job Category List</h1>
+                    <p className='text-center text-[#757575] mb-8'>
+                        <small>
+                            Explore thousands of job opportunities with all the information you need. Its your future
+                        </small>
+                    </p>
+                </div>
+                <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-3'>
+                    {
+                        category.map((singleCategory, i) => <JobCategoryList key={i} singleCategory={singleCategory}></JobCategoryList>)
+                    }
+                </div>
             </div>
-            <div className='grid lg:grid-cols-4 md:grid-cols-2'>
-            {
-                category.map((singleCategory, i)=> <JobCategoryList key={i} singleCategory={singleCategory}></JobCategoryList> )
-            }
-            </div>
-            
+
         </div>
     );
 };
