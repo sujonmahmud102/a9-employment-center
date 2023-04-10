@@ -6,10 +6,9 @@ import Header from './components/Header'
 import { Outlet } from 'react-router-dom'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
+    <div className="App mx-12">
       <Header></Header>
       <Outlet></Outlet>
     </div>
