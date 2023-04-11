@@ -1,0 +1,110 @@
+[
+  {
+    "id": "001",
+    "company_name": "Apple Inc.",
+    "logo": "https://example.com/apple.png",
+    "job_title": "Software Engineer",
+    "remote_or_onsite": "Onsite",
+    "location": "Cupertino, CA",
+    "part_time_or_full_time": "Full-time",
+    "salary": "$120,000 - $180,000",
+    "job_description": "We are looking for a talented software engineer to join our team...",
+    "job_responsibilities": "Develop and maintain software applications...",
+    "experiences": "3+ years of experience in software engineering...",
+    "educational_requirements": "Bachelor's or higher degree in Computer Science or related field...",
+    "contact_information": {
+      "phone": "+1 (123) 456-7890",
+      "email": "jobs@apple.com"
+    }
+  },
+  {
+    "id": "002",
+    "company_name": "Microsoft Corporation",
+    "logo": "https://example.com/microsoft.png",
+    "job_title": "Cloud Solutions Architect",
+    "remote_or_onsite": "Remote",
+    "location": "Anywhere",
+    "part_time_or_full_time": "Full-time",
+    "salary": "$140,000 - $200,000",
+    "job_description": "We are seeking an experienced Cloud Solutions Architect to join our team...",
+    "job_responsibilities": "Design and implement cloud-based solutions...",
+    "experiences": "7+ years of experience in cloud architecture and implementation...",
+    "educational_requirements": "Bachelor's or higher degree in Computer Science or related field...",
+    "contact_information": {
+      "phone": "+1 (123) 456-7890",
+      "email": "jobs@microsoft.com"
+    }
+  },
+  {
+    "id": "003",
+    "company_name": "Amazon.com Inc.",
+    "logo": "https://example.com/amazon.png",
+    "job_title": "Data Scientist",
+    "remote_or_onsite": "Onsite",
+    "location": "Seattle, WA",
+    "part_time_or_full_time": "Full-time",
+    "salary": "$130,000 - $180,000",
+    "job_description": "We are seeking a highly skilled data scientist to join our team...",
+    "job_responsibilities": "Develop and implement machine learning models...",
+    "experiences": "5+ years of experience in data science or related field...",
+    "educational_requirements": "Master's or higher degree in Computer Science or related field...",
+    "contact_information": {
+      "phone": "+1 (123) 456-7890",
+      "email": "jobs@amazon.com"
+    }
+  },
+  {
+    "id": "004",
+    "company_name": "Google LLC",
+    "logo": "https://example.com/google.png",
+    "job_title": "Product Manager",
+    "remote_or_onsite": "Onsite",
+    "location": "Mountain View, CA",
+    "part_time_or_full_time": "Full-time",
+    "salary": "$150,000 - $220,000",
+    "job_description": "We are seeking a talented Product Manager to join our team...",
+    "job_responsibilities": "Define and execute the product strategy...",
+    "experiences": "5+ years of experience in product management or related field...",
+    "educational_requirements": "Bachelor's or higher degree in Computer Science or related field...",
+    "contact_information": {
+      "phone": "+1 (123) 456-7890",
+      "email": "jobs@google.com"
+    }
+  },
+  {
+    "id": "005",
+    "company_name": "Facebook Inc.",
+    "logo": "https://example.com/facebook.png",
+    "job_title": "Software Engineer - Frontend",
+    "remote_or_onsite": "Onsite",
+    "location": "Menlo Park, CA",
+    "part_time_or_full_time": "Full-time",
+    "salary": "$120,000 - $180,000",
+    "job_description": "We are seeking a talented Frontend Software Engineer to join our team...",
+    "job_responsibilities": "Develop and maintain web applications...",
+    "experiences": "3+ years of experience in frontend software engineering...",
+    "educational_requirements": "Bachelor's or higher degree in Computer Science or related field...",
+    "contact_information": {
+      "phone": "+1 (123) 456-7890",
+      "email": "jobs@facebook.com"
+    }
+  },
+  {
+    "id": "006",
+    "company_name": "Tesla Inc.",
+    "logo": "https://example.com/tesla.png",
+    "job_title": "Autopilot Software Engineer",
+    "remote_or_onsite": "Onsite",
+    "location": "Palo Alto, CA",
+    "part_time_or_full_time": "Full-time",
+    "salary": "$150,000 - $200,000",
+    "job_description": "We are seeking a highly skilled Autopilot Software Engineer to join our team...",
+    "job_responsibilities": "Develop and improve the Autopilot software...",
+    "experiences": "5+ years of experience in software engineering or related field...",
+    "educational_requirements": "Bachelor's or higher degree in Computer Science or related field...",
+    "contact_information": {
+      "phone": "+1 (123) 456-7890",
+      "email": "jobs@tesla.com"
+    }
+  }
+]

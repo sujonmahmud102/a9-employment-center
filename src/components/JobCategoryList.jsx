@@ -1,7 +1,7 @@
 import React from 'react';
 
 const JobCategoryList = ({ singleCategory }) => {
-    console.log(singleCategory)
+    // console.log(singleCategory)
     const { category, image, total_jobs } = singleCategory;
     return (
         <div className='bg-[#eeebf5] mb-12 w-64 rounded-lg p-8'>
