@@ -5,7 +5,9 @@ const Header = () => {
     return (
         <nav className='flex justify-between py-6 bg-[#E8E8E8] px-12'>
             <div>
-                <h2 className='text-xl font-semibold cursor-pointer '>JobCenter</h2>
+                <Link to="/">
+                    <h2 className='text-xl font-semibold cursor-pointer '>JobCenter</h2>
+                </Link>
             </div>
             <div>
                 <NavLink className='mr-9' to="/">Home</NavLink>
