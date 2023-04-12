@@ -5,8 +5,7 @@ import { useLoaderData } from 'react-router-dom';
 import Company from './Company';
 
 const Home = () => {
-    const companies = useLoaderData();
-    console.log(companies)
+    const featureJob = useLoaderData();
     const [category, setCategory] = useState([]);
     useEffect(() => {
         fetch('jobCategory.json')
@@ -42,9 +41,12 @@ const Home = () => {
                 </p>
                 <div className='grid lg:grid-cols-2 md:grid-cols-2 gap-3'>
                     {
-                        companies.map(company => <Company company={company} key={company.id}></Company>)
+                        featureJob.map(company => <Company company={company} key={company.id}></Company>)
                     }
                 </div>
+                <div>
+                <button className='text-white font-semibold px-4 py-3 rounded-md  bg-gradient-to-r from-[#7E90FE] to-[#9873FF] hover:from-pink-500 hover:to-yellow-500 '>See All Jobs</button>
+            </div>
             </div>
 
         </div>
