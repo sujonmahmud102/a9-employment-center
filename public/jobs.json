@@ -1,8 +1,7 @@
-[
-  {
+[{
     "id": "001",
     "company_name": "Apple Inc.",
-    "logo": "https://example.com/apple.png",
+    "logo": "https://www.annualreports.com/HostedData/CompanyLogos/NASDAQ_AAPL.png",
     "job_title": "Software Engineer",
     "remote_or_onsite": "Onsite",
     "location": "Cupertino, CA",
@@ -20,7 +19,7 @@
   {
     "id": "002",
     "company_name": "Microsoft Corporation",
-    "logo": "https://example.com/microsoft.png",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/2560px-Microsoft_logo_%282012%29.svg.png",
     "job_title": "Cloud Solutions Architect",
     "remote_or_onsite": "Remote",
     "location": "Anywhere",
@@ -38,7 +37,7 @@
   {
     "id": "003",
     "company_name": "Amazon.com Inc.",
-    "logo": "https://example.com/amazon.png",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1280px-Amazon_logo.svg.png",
     "job_title": "Data Scientist",
     "remote_or_onsite": "Onsite",
     "location": "Seattle, WA",
@@ -56,7 +55,7 @@
   {
     "id": "004",
     "company_name": "Google LLC",
-    "logo": "https://example.com/google.png",
+    "logo": "https://play-lh.googleusercontent.com/1-hPxafOxdYpYZEOKzNIkSP43HXCNftVJVttoo4ucl7rsMASXW3Xr6GlXURCubE1tA=w3840-h2160-rw",
     "job_title": "Product Manager",
     "remote_or_onsite": "Onsite",
     "location": "Mountain View, CA",
@@ -74,7 +73,7 @@
   {
     "id": "005",
     "company_name": "Facebook Inc.",
-    "logo": "https://example.com/facebook.png",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/09/Facebook%2C_Inc._Logo_2019.png",
     "job_title": "Software Engineer - Frontend",
     "remote_or_onsite": "Onsite",
     "location": "Menlo Park, CA",
@@ -92,7 +91,7 @@
   {
     "id": "006",
     "company_name": "Tesla Inc.",
-    "logo": "https://example.com/tesla.png",
+    "logo": "https://w7.pngwing.com/pngs/523/374/png-transparent-tesla-motors-electric-vehicle-tesla-model-s-car-tesla-angle-text-logo-thumbnail.png",
     "job_title": "Autopilot Software Engineer",
     "remote_or_onsite": "Onsite",
     "location": "Palo Alto, CA",
