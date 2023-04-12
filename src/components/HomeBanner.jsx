@@ -21,7 +21,7 @@ const HomeBanner = () => {
                 </button>
             </div>
             <div>
-                <img src="/public/bannerImg.png" alt="" />
+                <img src="/bannerImg.png" alt="" />
             </div>
         </div>
     );
