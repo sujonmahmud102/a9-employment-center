@@ -1,9 +1,11 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { useLoaderData, useParams } from 'react-router-dom';
 
 const JobDetails = () => {
+    let { id } = useParams()
+    console.log(id)
     const allJobs = useLoaderData();
-    console.log(allJobs)
+
     return (
         <div>
             Details About Job
