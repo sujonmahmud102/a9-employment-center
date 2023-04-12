@@ -25,6 +25,10 @@ const AppliedJobs = () => {
     return (
         <div>
             <h1 className='text-center text-2xl font-bold mt-5'>Applied Jobs </h1>
+            <h3>
+                <option value="Remote"></option>
+                <option value="Onsite"></option>
+            </h3>
             <div className='px-12'>
                 {
                     appliedJobs.map((singleJob, index) => <AppliedJobList

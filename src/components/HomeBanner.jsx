@@ -4,7 +4,7 @@ const HomeBanner = () => {
     return (
         <div className='flex justify-center items-center bg-[#E8E8E8] px-12'>
             <div>
-                <h1 className='text-5xl font-bold mb-6'>
+                <h1 className='text-6xl font-bold mb-6'>
                     One Step
                     <br />
                     Closer To Your

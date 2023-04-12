@@ -10,25 +10,26 @@ const Header = () => {
                 <h2 className='text-xl font-semibold cursor-pointer '>JobCenter</h2>
             </Link>
             <div className='md:hidden' onClick={() => setOpen(!open)}>
-                    <span>
-                        {
-                            open === true ? <XMarkIcon className="h-6 w-6 text-blue-500" />
-                                : <Bars4Icon className="h-6 w-6 text-blue-500" />
-                        }
-                    </span>
+                <span>
+                    {
+                        open === true ? <XMarkIcon className="h-6 w-6 text-blue-500" />
+                            : <Bars4Icon className="h-6 w-6 text-blue-500" />
+                    }
+                </span>
 
 
-                </div>
+            </div>
             <div className=''>
-                
+
                 <div>
 
                     <ul className={`md:flex items-center duration-500 relative  ${open ? 'top-12' : 'hidden'}`}>
                         <li><Link className='mr-9' to="/">Home</Link></li>
                         <li><Link className='mr-9' to="/statistics">Statistics</Link></li>
-                        <li> <Link className='mr-9' to="/appliedJobs">Applied Jobs</Link></li>
+                        <li><Link className='mr-9' to="/appliedJobs">Applied Jobs</Link></li>
                         <li><Link className='mr-9' to="/blog">Blog</Link></li>
-                        <li><button className='text-white font-semibold px-4 py-3 rounded-md  bg-gradient-to-r from-[#7E90FE] to-[#9873FF] hover:from-pink-500 hover:to-yellow-500'>Star Applying</button></li>
+                        <li><Link to="/">
+                            <button className='text-white font-semibold px-4 py-3 rounded-md  bg-gradient-to-r from-[#7E90FE] to-[#9873FF] hover:from-pink-500 hover:to-yellow-500'>Star Applying</button></Link></li>
                     </ul>
 
                 </div>

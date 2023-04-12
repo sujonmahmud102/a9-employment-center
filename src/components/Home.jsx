@@ -45,8 +45,9 @@ const Home = () => {
                         (dataSlice === true ? featureJob : featureJob.slice(0, 4)).map(company => <Company company={company} key={company.id}></Company>)
                     }
                 </div>
-                <div className=''>
-                    <button onClick={() => setDataSlice(!dataSlice)} className='text-white font-semibold mb-5 px-4 py-3 rounded-md  bg-gradient-to-r from-[#7E90FE] to-[#9873FF] hover:from-pink-500 hover:to-yellow-500 '>See All Jobs</button>
+                <div className='text-center'>
+                    <button onClick={() => setDataSlice(!dataSlice)} className='text-white  font-semibold mb-5 px-4 py-3 rounded-md bg-gradient-to-r from-[#7E90FE] to-[#9873FF] hover:from-pink-500 hover:to-yellow-500 relatve left-8'>See All Jobs
+                    </button>
                 </div>
             </div>
 
