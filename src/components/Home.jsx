@@ -6,6 +6,7 @@ import Company from './Company';
 
 const Home = () => {
     const featureJob = useLoaderData();
+    const [dataSlice, setDataSlice] = useState(false);
     const [category, setCategory] = useState([]);
     useEffect(() => {
         fetch('jobCategory.json')
@@ -41,12 +42,12 @@ const Home = () => {
                 </p>
                 <div className='grid lg:grid-cols-2 md:grid-cols-2 gap-3'>
                     {
-                        featureJob.map(company => <Company company={company} key={company.id}></Company>)
+                        (dataSlice === true ? featureJob : featureJob.slice(0, 4)).map(company => <Company company={company} key={company.id}></Company>)
                     }
                 </div>
-                <div>
-                <button className='text-white font-semibold px-4 py-3 rounded-md  bg-gradient-to-r from-[#7E90FE] to-[#9873FF] hover:from-pink-500 hover:to-yellow-500 '>See All Jobs</button>
-            </div>
+                <div className=''>
+                    <button onClick={() => setDataSlice(!dataSlice)} className='text-white font-semibold mb-5 px-4 py-3 rounded-md  bg-gradient-to-r from-[#7E90FE] to-[#9873FF] hover:from-pink-500 hover:to-yellow-500 '>See All Jobs</button>
+                </div>
             </div>
 
         </div>

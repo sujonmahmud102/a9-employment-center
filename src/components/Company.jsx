@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 const Company = ({ company }) => {
-    const { id, job_title, company_name, logo, location, part_time_or_full_time, remote_or_onsite, salary } = company
+    const { id, job_title, company_name, logo, location, part_time_or_full_time, remote_or_onsite, salary } = company;
     return (
         <div className='bg-[#eeebf5] mb-12 rounded-lg p-8 '>
 
