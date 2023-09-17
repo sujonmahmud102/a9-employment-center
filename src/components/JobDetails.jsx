@@ -8,11 +8,12 @@ const JobDetails = () => {
 
     const allJobs = useLoaderData();
     const [job, setJob] = useState({});
-    console.log(job)
+    // console.log(job)
     const { job_description, job_responsibilities, educational_requirements, experiences, salary, job_title, contact_information, location
     } = job;
     useEffect(() => {
         const singleJob = allJobs.find(single => single.id === id)
+        // console.log(singleJob)
         setJob(singleJob)
 
     }, [])
